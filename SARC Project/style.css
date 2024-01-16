@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 96px;
+    width: 100%;
+    color: #052c60;
+    background-color: white;
+}
+
+.navdiv ul{
+    display: flex;
+    padding-left: 10px;
+}
+
+.navdiv li{
+    list-style: none;
+    text-align: center;
+    padding: 0px 16px;
+    margin-top: 42px;
+}
+
+.navdiv li a {
+    color: #032D60;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.navdiv li a:visited {
+    color: #032D60;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+    background-color: white;
+}
+
+.logo img {
+    width: 85px;
+    height: 65px;
+    margin-top: 12px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+.logo a{
+    background-color: white;
+}
+
+.contact {
+    text-align: center;
+    color: #052c60;
+    font-size: 14px;
+    margin-left: 90px;
+    margin-top: 25px;
+    line-height: 25px;
+}
+
+.contact a:visited {
+    color: #052c60;
+    font-weight: lighter;
+}
+
+.login {
+    text-align: center;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.login img {
+    width: 22px;
+    height: 22px;
+    margin: 10px;
+}
+
+.login p {
+    margin-top: 12px;
+    font-size: 16px;
+    padding: 0px;
+}
+
+.login a {
+    color: #052c60;
+    text-decoration: none;
+    display: flex;
+}
+
+.login a:visited {
+    color: #052c60;
+}
+
+.try {
+    width: 125px;
+    height: 40px;
+    background-color: #2f854a;
+    color: white;
+    border-radius: 5px;
+    border: 1.5px solid #2f854a;
+    font-size: 15px;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-top: 25px;
+    padding: 8px 24px;
+    float: right;
+    font-weight: 500;
+}
+
+.try:hover {
+    background-color: #1d3327;
+    border: 1.5px solid #1d3327;
+    color: white;
+}
+
+.try a{
+    text-decoration: none;
+}
+
+.try a:visited {
+    color: white;
+}
+
+.wrapper {
+    background-color: #052c60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 48px;
+    width: 100%;
+    padding: 0;
+}
+
+.wrapper h2 {
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #052c60;
+}
+
+.wrapper img {
+    background-color: #052c60;
+    height: 24px;
+    width: 80px;
+}
+
+.wrapper a{
+    padding: 20px;
+    color: white;
+    background-color: #052c60;
+    height: 40px;
+    font-size: 15px;
+    padding-top: 11px;
+}
+
+.wrapper a:hover {
+    text-decoration: none;
+}
+
+.section {
+    height: 670px;
+    background-color: #f1f7fe;
+
+}
+
+.section h3{
+    font-size: 48px;
+    color: #032D60;
+    padding-top: 120px;
+    padding-left: 150px;
+}
+
+.section p{
+    padding-left: 150px;
+    padding-top: 20px;
+    font-size: 17px;
+    color: #181818;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+
+}
+
+.section img{
+    width: 460px;
+    height: 460px;
+    float: right;
+    margin: 60px 140px;
+}
+
+.buttons {
+    display: flex;
+    padding-left: 150px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.discover{
+    background-color: #0176D3;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 12px 32px;
+    margin-right: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.discover:hover {
+    background-color: #052c60;
+    color: white;
+}
+
+.discover a:visited {
+    color: white;
+}
+
+.demo {
+    background-color: white;
+    color: #0176D3;
+    font-size: 16px;
+    padding: 12px 32px;
+    border-radius: 5px;
+    border: 1.5px solid #0176D3;
+}
+
+.demo:hover {
+    background-color: #f4f8ff;
+    color: #052c60;
+    border: 1.5px solid #052c60
+}
+
+.demo a:visited {
+    color: #0176D3;
+    text-decoration: none;
+}
